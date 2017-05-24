@@ -1,0 +1,368 @@
+Test file examples/proc1-c2-fcfs.out differs
+7c7
+< Average Response Time: -7.00
+---
+> Average Response Time: 0.00
+Test file examples/proc1-c2-ppri.out differs
+2,3c2,3
+<   Core  0: 00001111110000------2233322222
+<   Core  1: ------------------------------
+---
+>   Core  0: 00000000------------2222222
+>   Core  1: ----111111------------333--
+5,6c5,6
+< Average Waiting Time: 2.25
+< Average Turnaround Time: 8.25
+---
+> Average Waiting Time: 0.00
+> Average Turnaround Time: 6.00
+Test file examples/proc1-c2-pri.out differs
+7c7
+< Average Response Time: -7.00
+---
+> Average Response Time: 0.00
+Test file examples/proc1-c2-psjf.out differs
+2,3c2,3
+<   Core  0: 00000000111111------2233322222
+<   Core  1: ------------------------------
+---
+>   Core  0: 00000000------------2222222
+>   Core  1: ----111111------------333--
+5,7c5,7
+< Average Waiting Time: 1.75
+< Average Turnaround Time: 7.75
+< Average Response Time: 1.00
+---
+> Average Waiting Time: 0.00
+> Average Turnaround Time: 6.00
+> Average Response Time: 0.00
+Test file examples/proc1-c2-rr1.out differs
+2,3c2,3
+<   Core  0: 00000101010111------2223232322
+<   Core  1: ------------------------------
+---
+>   Core  0: 00000000------------2222222
+>   Core  1: ----111111------------333--
+5,7c5,7
+< Average Waiting Time: 3.25
+< Average Turnaround Time: 9.25
+< Average Response Time: 0.50
+---
+> Average Waiting Time: 0.00
+> Average Turnaround Time: 6.00
+> Average Response Time: 0.00
+Test file examples/proc1-c2-rr2.out differs
+2,3c2,3
+<   Core  0: 00000011001111------2222332232
+<   Core  1: ------------------------------
+---
+>   Core  0: 00000000------------2222222
+>   Core  1: ----111111------------333--
+5,7c5,7
+< Average Waiting Time: 3.25
+< Average Turnaround Time: 9.25
+< Average Response Time: 1.00
+---
+> Average Waiting Time: 0.00
+> Average Turnaround Time: 6.00
+> Average Response Time: 0.00
+Test file examples/proc1-c2-rr4.out differs
+2,3c2,3
+<   Core  0: 00000000111111------2222333222
+<   Core  1: ------------------------------
+---
+>   Core  0: 00000000------------2222222
+>   Core  1: ----111111------------333--
+5,7c5,7
+< Average Waiting Time: 2.25
+< Average Turnaround Time: 8.25
+< Average Response Time: 1.50
+---
+> Average Waiting Time: 0.00
+> Average Turnaround Time: 6.00
+> Average Response Time: 0.00
+Test file examples/proc1-c2-sjf.out differs
+7c7
+< Average Response Time: -7.00
+---
+> Average Response Time: 0.00
+Test file examples/proc2-c2-fcfs.out differs
+7c7
+< Average Response Time: 2.00
+---
+> Average Response Time: 2.40
+Test file examples/proc2-c2-ppri.out differs
+2,3c2,3
+<   Core  0: 002222201111111111334444
+<   Core  1: ------------------------
+---
+>   Core  0: 000111111111-
+>   Core  1: -122222334444
+5,7c5,7
+< Average Waiting Time: 8.60
+< Average Turnaround Time: 13.40
+< Average Response Time: 7.60
+---
+> Average Waiting Time: 2.00
+> Average Turnaround Time: 6.80
+> Average Response Time: 1.80
+Test file examples/proc2-c2-pri.out differs
+7c7
+< Average Response Time: 2.00
+---
+> Average Response Time: 2.40
+Test file examples/proc2-c2-psjf.out differs
+2,3c2,3
+<   Core  0: 000334444222221111111111
+<   Core  1: ------------------------
+---
+>   Core  0: 000334444-------
+>   Core  1: -122222111111111
+5,7c5,7
+< Average Waiting Time: 4.20
+< Average Turnaround Time: 9.00
+< Average Response Time: 4.20
+---
+> Average Waiting Time: 1.20
+> Average Turnaround Time: 6.00
+> Average Response Time: 0.20
+Test file examples/proc2-c2-rr1.out differs
+2,3c2,3
+<   Core  0: 001021342134214214211111
+<   Core  1: ------------------------
+---
+>   Core  0: 00023131244---
+>   Core  1: -1112424121111
+5,7c5,7
+< Average Waiting Time: 8.40
+< Average Turnaround Time: 13.20
+< Average Response Time: 1.80
+---
+> Average Waiting Time: 2.20
+> Average Turnaround Time: 7.00
+> Average Response Time: 0.60
+Test file examples/proc2-c2-rr2.out differs
+2,3c2,3
+<   Core  0: 001102233114422114421111
+<   Core  1: ------------------------
+---
+>   Core  0: 00022332244---
+>   Core  1: -1111441121111
+5,7c5,7
+< Average Waiting Time: 8.60
+< Average Turnaround Time: 13.40
+< Average Response Time: 3.00
+---
+> Average Waiting Time: 2.20
+> Average Turnaround Time: 7.00
+> Average Response Time: 0.80
+Test file examples/proc2-c2-rr4.out differs
+2,3c2,3
+<   Core  0: 000111122223344441111211
+<   Core  1: ------------------------
+---
+>   Core  0: 0002222111111
+>   Core  1: -11113344442-
+5,7c5,7
+< Average Waiting Time: 9.00
+< Average Turnaround Time: 13.80
+< Average Response Time: 4.80
+---
+> Average Waiting Time: 2.40
+> Average Turnaround Time: 7.20
+> Average Response Time: 1.20
+Test file examples/proc2-c2-sjf.out differs
+7c7
+< Average Response Time: 2.00
+---
+> Average Response Time: 2.40
+Test file examples/proc3-c2-fcfs.out differs
+7c7
+< Average Response Time: 23.11
+---
+> Average Response Time: 23.22
+Test file examples/proc3-c2-ppri.out differs
+2,3c2,3
+<   Core  0: 00222220888888888888888ggggggggggggggg66666666666aaaaaaaaaaaaccccccccccccccffffffffffff1111111111111111111155555555bbbbbbbbbeeeeeee33777999999999hhhhhhhhh4444dd
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  0: 0001116666666666gggggggggggggggcccccccccccccc111111111111111eeeeeee9999999994444-
+>   Core  1: -12222218888888888888886aaaaaaaaaaaaffffffffffff55555555bbbbbbbbb33777hhhhhhhhhdd
+5,7c5,7
+< Average Waiting Time: 77.67
+< Average Turnaround Time: 86.56
+< Average Response Time: 77.39
+---
+> Average Waiting Time: 33.61
+> Average Turnaround Time: 42.50
+> Average Response Time: 31.06
+Test file examples/proc3-c2-pri.out differs
+7c7
+< Average Response Time: 33.50
+---
+> Average Response Time: 33.61
+Test file examples/proc3-c2-psjf.out differs
+2,3c2,3
+<   Core  0: 0003344447772dd2222eeeeeee55555555999999999bbbbbbbbbhhhhhhhhh66666666666aaaaaaaaaaaaffffffffffffcccccccccccccc888888888888888ggggggggggggggg11111111111111111111
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  0: 00033444455555555eeeeeeehhhhhhhhhaaaaaaaaaaaaccccccccccccccggggggggggggggg-------------
+>   Core  1: -122222777999dd999999bbbbbbbbb66666666666ffffffffffff8888888888888881111111111111111111
+5,7c5,7
+< Average Waiting Time: 41.83
+< Average Turnaround Time: 50.72
+< Average Response Time: 41.72
+---
+> Average Waiting Time: 16.00
+> Average Turnaround Time: 24.89
+> Average Response Time: 12.22
+Test file examples/proc3-c2-rr1.out differs
+2,3c2,3
+<   Core  0: 0010213425163748295a1b6cd7e4f8g2h95a1b6cd7e4f8g2h95a1b6cef8gh95a1b6cef8gh95a1b6cef8gh95a1b6cef8gh95a1b6cef8gh9a1b6cf8gh9a1b6cf8gha16cf8ga1cf8ga1cf8g1c8g1c8g1g11
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  0: 00023135425862a18697afb869a51ghca51ghca51ghca51ghcafb869e1ghcf18hfa8hc1gc8g8181c-
+>   Core  1: -11124216714975b4cde51ghcdefb869efb869efb869efb869e1ghcafb869abg6c1gfa8fa1fcgcggg
+5,7c5,7
+< Average Waiting Time: 83.50
+< Average Turnaround Time: 92.39
+< Average Response Time: 7.44
+---
+> Average Waiting Time: 33.39
+> Average Turnaround Time: 42.28
+> Average Response Time: 3.11
+Test file examples/proc3-c2-rr2.out differs
+2,3c2,3
+<   Core  0: 0011022331144556622778899aa11bbcc44ddee55ffgg66hh278899aa11bbccee55ffgg66hh8899aa11bbccee55ffgg66hh8899aa11bbcceffgg66hh889aa11bccffgg6h88aa11ccffgg8811ccgg811g
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  0: 0002233225544889955bb7dd881199aa66cc881199aabbcc881199aa66effggaabccffggccffgg8ggg
+>   Core  1: -111144116677211aa66cceeffgghh55bbeeffgghh5566eeffgghhbbcc88119hh68811aah8811cc---
+5,7c5,7
+< Average Waiting Time: 84.17
+< Average Turnaround Time: 93.06
+< Average Response Time: 13.94
+---
+> Average Waiting Time: 33.67
+> Average Turnaround Time: 42.56
+> Average Response Time: 5.28
+Test file examples/proc3-c2-rr4.out differs
+2,3c2,3
+<   Core  0: 0001111222233444455556666111177788889999aaaa2bbbbccccddeeeeffffgggghhhh55556666111188889999aaaabbbbcccceeeffffgggghhhh666111188889aaaabccccffffggggh1111888ccggg
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  0: 00022221111666628888aaaabbbbddeeee5555gggg8888aaaabbbbeeeffffhhhh91111cccch888cc-
+>   Core  1: -1111334444555577799991111cccc6666ffffhhhh99991111cccc666gggg8888aaaabffffggggggg
+5,7c5,7
+< Average Waiting Time: 81.56
+< Average Turnaround Time: 90.44
+< Average Response Time: 24.83
+---
+> Average Waiting Time: 32.61
+> Average Turnaround Time: 41.50
+> Average Response Time: 9.56
+Test file examples/proc3-c2-sjf.out differs
+7c7
+< Average Response Time: 19.17
+---
+> Average Response Time: 19.28
+Test file examples/proc3-c4-fcfs.out differs
+7c7
+< Average Response Time: 5.06
+---
+> Average Response Time: 6.17
+Test file examples/proc3-c4-ppri.out differs
+1,3c1,3
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  2: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  3: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  1: -11111111111ccccgggggggggggggggeeeeeee44---
+>   Core  2: --22222788888888888888811111111177hhhhhhhhh
+>   Core  3: ----4466666666666cccccccccc555bbbbbbbbbdd--
+5,7c5,7
+< Average Waiting Time: 77.67
+< Average Turnaround Time: 86.56
+< Average Response Time: 77.39
+---
+> Average Waiting Time: 10.89
+> Average Turnaround Time: 19.78
+> Average Response Time: 6.17
+Test file examples/proc3-c4-pri.out differs
+7c7
+< Average Response Time: 6.17
+---
+> Average Response Time: 7.28
+Test file examples/proc3-c4-psjf.out differs
+1,3c1,3
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  2: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  3: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  1: -1111166666666666hhhhhhhhhcccccccccccccc-------
+>   Core  2: --22222777abbbbbbbbbffffffffffffggggggggggggggg
+>   Core  3: ----44441999999999aaaaaaaaaaa888888888888888---
+5,7c5,7
+< Average Waiting Time: 41.83
+< Average Turnaround Time: 50.72
+< Average Response Time: 41.72
+---
+> Average Waiting Time: 4.39
+> Average Turnaround Time: 13.28
+> Average Response Time: 3.17
+Test file examples/proc3-c4-rr1.out differs
+1,3c1,3
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  2: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  3: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  1: -11111111596565defg8fcb16hae9gbfcfg1ga88-----
+>   Core  2: --222226618abab681cb16hae9g8fch181ch8chgggggg
+>   Core  3: ----444476579c9abd6hae9g8fcb16eabh8afgccc----
+5,7c5,7
+< Average Waiting Time: 83.50
+< Average Turnaround Time: 92.39
+< Average Response Time: 7.44
+---
+> Average Waiting Time: 9.11
+> Average Turnaround Time: 18.00
+> Average Response Time: 0.94
+Test file examples/proc3-c4-rr2.out differs
+1,3c1,3
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  2: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  3: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  1: -1111111155788ccddbbgg88ff99eecc88cc88h8-----
+>   Core  2: --222226611aabbaa1166hhbbgg88ffaaebggcccc----
+>   Core  3: ----44447766556688ff99eeccaa116gg11aaffff----
+5,7c5,7
+< Average Waiting Time: 84.17
+< Average Turnaround Time: 93.06
+< Average Response Time: 13.94
+---
+> Average Waiting Time: 9.11
+> Average Turnaround Time: 18.00
+> Average Response Time: 1.50
+Test file examples/proc3-c4-rr4.out differs
+1,3c1,3
+<   Core  1: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  2: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<   Core  3: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+>   Core  1: -111111115555aaaaddeeeeggggccccffffb888ggggggg
+>   Core  2: --2222266669999bbbb9999666bbbb91111hhhhh------
+>   Core  3: ----44447771111cccc1111aaaa8888ggggcccccc-----
+5,7c5,7
+< Average Waiting Time: 81.56
+< Average Turnaround Time: 90.44
+< Average Response Time: 24.83
+---
+> Average Waiting Time: 8.61
+> Average Turnaround Time: 17.50
+> Average Response Time: 2.50
+Test file examples/proc3-c4-sjf.out differs
+7c7
+< Average Response Time: 3.94
+---
+> Average Response Time: 5.06
